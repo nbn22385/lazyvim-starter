@@ -1,3 +1,4 @@
+-- TODO: split into separate files
 return {
   {
     {
@@ -6,8 +7,6 @@ return {
       opts = function(_, opts)
         opts.variant = "moon"
         opts.dark_variant = "moon"
-        opts.dim_inactive_windows = false
-        opts.extend_background_behind_borders = true
       end,
     },
     {
